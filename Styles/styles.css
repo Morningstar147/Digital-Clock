@@ -1,0 +1,62 @@
+body{
+    margin: 0;
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
+    background-image: url(https://img.freepik.com/free-photo/transparent-vivid-autumn-leaves_23-2148239689.jpg?size=626&ext=jpg&ga=GA1.1.1546980028.1702857600&semt=ais);
+    background-size: cover;
+    overflow: hidden;
+} 
+
+h2{
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-size: 14px;
+    align-items: center;
+    color: #fff;
+}
+
+.clock{
+    display: flex;
+    cursor: pointer;
+}
+
+.clock div{
+    margin: 5px;
+    position: relative;
+}
+
+.clock span{
+    width: 100px;
+    height: 80px;
+    background-color: #C7A573;
+    opacity: 20;
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.clock .text{
+    height: 30px;
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    background-color: darkorchid;
+    opacity: 0.8;
+}
+
+#ampm{
+    bottom: 0;
+    position: absolute;
+    width: 60px;
+    height: 30px;
+    font-size: 20px;
+    background-color: #0099A3;
+}
+
